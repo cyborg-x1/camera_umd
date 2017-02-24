@@ -59,7 +59,8 @@
   <run_depend>nodelet</run_depend>
   <run_depend>sensor_msgs</run_depend>
   <run_depend>libv4l-dev</run_depend> <!-- should add non-dev package to rosdep -->
-
+  <build_depend>std_srvs</build_depend>
+  <run_depend>std_srvs</run_depend>
 
   <!-- The export tag contains other, unspecified, tags -->
   <export>
